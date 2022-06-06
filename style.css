@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+#content{
+    background-image: url("./Imagens/background.png");
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box; /*forçar o documento manter o tamanho definido*/
+    margin: auto;
+    margin-top: 200px;
+    border: 1px solid black;
+}
+
+h2{
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+ul{
+    font-family: monospace, 'Courier New', Courier;
+    margin: 10px;
+}
+
+#git{
+    list-style-image: url("./Imagens/git.png");
+}
+
+#in{
+    list-style-image: url("./Imagens/linkedin.png");
+}
+
+#email{
+    list-style-image: url("./Imagens/email.png");
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: brown;
+}
+
+
+
